@@ -81,8 +81,16 @@ public enum Times {
 				this.getGames(), this.getWins(), this.getDraws(), this.getLosers(), this.getGoalsScored(),
 				this.getGoalsConceded(), this.getGoalsDifference(), this.getPoints());
 	}
+	
+	public static final List<Times> getTeams() {
+		return Arrays.asList(values());
+	}
 
 	public static final List<Times> getTeams(Comparator<? super Times> comparator) {
 		return Arrays.asList(values()).stream().sorted(comparator).collect(Collectors.toList());
+	}
+	
+	public static final Times findTeam(String name) {
+		return getTeams().stream().filter(s -> s.getName().startsWith(name)).findFirst().orElse(null);
 	}
 }

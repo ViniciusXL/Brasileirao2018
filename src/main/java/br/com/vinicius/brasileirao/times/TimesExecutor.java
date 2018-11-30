@@ -1,5 +1,7 @@
 package br.com.vinicius.brasileirao.times;
 
+import javax.swing.JFrame;
+
 public abstract class TimesExecutor {
 	
 	public abstract String getName();
@@ -21,4 +23,6 @@ public abstract class TimesExecutor {
 	}
 	
 	public abstract int getPoints();
+	
+	public abstract void setInformation(JFrame frame);
 }
