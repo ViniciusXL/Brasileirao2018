@@ -79,8 +79,5 @@ public class AtleticoMineiroExecutor extends TimesExecutor {
 		JLabelAPI.addLabel(frame, "Recopa Sul-Americana (2014)", 10, 315, 500, 14);
 		JLabelAPI.addLabel(frame, "Campeonato Brasileiro (1971)", 10, 330, 500, 14);
 		JLabelAPI.addLabel(frame, "Copa do Brasil (2014)", 10, 345, 500, 14);
-		JLabelAPI.addLabel(frame, "Copa dos Campeões Estaduais (1937)", 10, 360, 500, 14);
-		JLabelAPI.addLabel(frame, "Copa dos Campeões do Brasil (1978)", 10, 375, 500, 14);
-		JLabelAPI.addLabel(frame, "Campeonato Brasileiro - Série B (2006)", 10, 390, 500, 14);
 	}
 }

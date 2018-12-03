@@ -72,16 +72,11 @@ public class AmericaMGExecutor extends TimesExecutor {
 		
 		// TÍTULOS //
 		
-		JLabelAPI.addLabel(frame, "TÍTULOS DO CLUBE", 10, 260, 500, 14);
+		JLabelAPI.addLabel(frame, "TÍTULOS DO CLUBE (Principais)", 10, 260, 500, 14);
 		
 		JLabelAPI.addLabel(frame, "Campeonato Brasileiro - Série B (1997 e 2017)", 10, 285, 500, 14);
 		JLabelAPI.addLabel(frame, "Campeonato Brasileiro - Série C (2009)", 10, 300, 500, 14);
-		JLabelAPI.addLabel(frame, "Copa Sul-Minas (2000)", 10, 315, 500, 14);
-		JLabelAPI.addLabel(frame, "Campeonato Mineiro (16 títulos ao total)", 10, 330, 500, 14);
-		JLabelAPI.addLabel(frame, "Campeonato Mineiro - Módulo II (2008)", 10, 345, 500, 14);
-		JLabelAPI.addLabel(frame, "Taça Minas Gerais (2005)", 10, 360, 500, 14);
-		JLabelAPI.addLabel(frame, "Torneio Início (13 títulos ao total)", 10, 375, 500, 14);
-		JLabelAPI.addLabel(frame, "Campeonato Extra da Cidade de BH (1939)", 10, 390, 500, 14);
+		JLabelAPI.addLabel(frame, "Campeonato Mineiro (16 títulos ao total)", 10, 315, 500, 14);
 	}
 
 }
