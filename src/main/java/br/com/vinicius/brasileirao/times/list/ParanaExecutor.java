@@ -11,7 +11,7 @@ public class ParanaExecutor extends TimesExecutor {
 
 	@Override
 	public int getGames() {
-		return 33;
+		return 38;
 	}
 
 	@Override
@@ -21,27 +21,27 @@ public class ParanaExecutor extends TimesExecutor {
 
 	@Override
 	public int getDraws() {
-		return 9;
+		return 11;
 	}
 
 	@Override
 	public int getLosers() {
-		return 20;
+		return 23;
 	}
 
 	@Override
 	public int getGoalsScored() {
-		return 15;
+		return 18;
 	}
 
 	@Override
 	public int getGoalsConceded() {
-		return 51;
+		return 57;
 	}
 
 	@Override
 	public int getPoints() {
-		return 21;
+		return 23;
 	}
 
 }

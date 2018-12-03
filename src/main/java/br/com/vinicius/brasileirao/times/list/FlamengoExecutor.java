@@ -11,12 +11,12 @@ public class FlamengoExecutor extends TimesExecutor {
 
 	@Override
 	public int getGames() {
-		return 33;
+		return 38;
 	}
 
 	@Override
 	public int getWins() {
-		return 17;
+		return 21;
 	}
 
 	@Override
@@ -26,22 +26,22 @@ public class FlamengoExecutor extends TimesExecutor {
 
 	@Override
 	public int getLosers() {
-		return 7;
+		return 8;
 	}
 
 	@Override
 	public int getGoalsScored() {
-		return 52;
+		return 59;
 	}
 
 	@Override
 	public int getGoalsConceded() {
-		return 27;
+		return 29;
 	}
 
 	@Override
 	public int getPoints() {
-		return 60;
+		return 72;
 	}
 
 }

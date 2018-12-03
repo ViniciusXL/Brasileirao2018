@@ -11,37 +11,37 @@ public class CearaExecutor extends TimesExecutor {
 
 	@Override
 	public int getGames() {
-		return 33;
+		return 38;
 	}
 
 	@Override
 	public int getWins() {
-		return 9;
+		return 10;
 	}
 
 	@Override
 	public int getDraws() {
-		return 11;
+		return 14;
 	}
 
 	@Override
 	public int getLosers() {
-		return 13;
+		return 14;
 	}
 
 	@Override
 	public int getGoalsScored() {
-		return 28;
+		return 32;
 	}
 
 	@Override
 	public int getGoalsConceded() {
-		return 34;
+		return 38;
 	}
 
 	@Override
 	public int getPoints() {
-		return 38;
+		return 44;
 	}
 
 }

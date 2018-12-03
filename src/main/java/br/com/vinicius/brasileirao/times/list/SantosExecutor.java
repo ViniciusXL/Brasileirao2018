@@ -11,37 +11,37 @@ public class SantosExecutor extends TimesExecutor {
 
 	@Override
 	public int getGames() {
-		return 32;
+		return 38;
 	}
 
 	@Override
 	public int getWins() {
-		return 12;
+		return 13;
 	}
 
 	@Override
 	public int getDraws() {
-		return 10;
+		return 11;
 	}
 
 	@Override
 	public int getLosers() {
-		return 10;
+		return 14;
 	}
 
 	@Override
 	public int getGoalsScored() {
-		return 40;
+		return 46;
 	}
 
 	@Override
 	public int getGoalsConceded() {
-		return 31;
+		return 40;
 	}
 
 	@Override
 	public int getPoints() {
-		return 46;
+		return 50;
 	}
 
 }

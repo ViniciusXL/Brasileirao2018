@@ -11,37 +11,37 @@ public class FluminenseExecutor extends TimesExecutor {
 
 	@Override
 	public int getGames() {
-		return 32;
+		return 38;
 	}
 
 	@Override
 	public int getWins() {
-		return 11;
+		return 12;
 	}
 
 	@Override
 	public int getDraws() {
-		return 7;
+		return 9;
 	}
 
 	@Override
 	public int getLosers() {
-		return 14;
+		return 17;
 	}
 
 	@Override
 	public int getGoalsScored() {
-		return 31;
+		return 32;
 	}
 
 	@Override
 	public int getGoalsConceded() {
-		return 39;
+		return 42;
 	}
 
 	@Override
 	public int getPoints() {
-		return 40;
+		return 45;
 	}
 
 }

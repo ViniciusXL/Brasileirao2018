@@ -14,12 +14,12 @@ public class AtleticoMineiroExecutor extends TimesExecutor {
 
 	@Override
 	public int getGames() {
-		return 33;
+		return 38;
 	}
 
 	@Override
 	public int getWins() {
-		return 13;
+		return 17;
 	}
 
 	@Override
@@ -29,22 +29,22 @@ public class AtleticoMineiroExecutor extends TimesExecutor {
 
 	@Override
 	public int getLosers() {
-		return 12;
+		return 13;
 	}
 
 	@Override
 	public int getGoalsScored() {
-		return 49;
+		return 56;
 	}
 
 	@Override
 	public int getGoalsConceded() {
-		return 39;
+		return 43;
 	}
 
 	@Override
 	public int getPoints() {
-		return 47;
+		return 59;
 	}
 
 	@Override

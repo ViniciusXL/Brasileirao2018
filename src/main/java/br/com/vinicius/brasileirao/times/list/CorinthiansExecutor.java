@@ -11,37 +11,37 @@ public class CorinthiansExecutor extends TimesExecutor {
 
 	@Override
 	public int getGames() {
-		return 33;
+		return 38;
 	}
 
 	@Override
 	public int getWins() {
-		return 10;
+		return 11;
 	}
 
 	@Override
 	public int getDraws() {
-		return 10;
+		return 11;
 	}
 
 	@Override
 	public int getLosers() {
-		return 13;
+		return 16;
 	}
 
 	@Override
 	public int getGoalsScored() {
-		return 33;
+		return 34;
 	}
 
 	@Override
 	public int getGoalsConceded() {
-		return 32;
+		return 35;
 	}
 
 	@Override
 	public int getPoints() {
-		return 40;
+		return 44;
 	}
 
 }

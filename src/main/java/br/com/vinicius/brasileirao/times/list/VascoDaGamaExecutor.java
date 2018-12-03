@@ -11,37 +11,37 @@ public class VascoDaGamaExecutor extends TimesExecutor {
 
 	@Override
 	public int getGames() {
-		return 33;
+		return 38;
 	}
 
 	@Override
 	public int getWins() {
-		return 9;
+		return 10;
 	}
 
 	@Override
 	public int getDraws() {
-		return 11;
-	}
-
-	@Override
-	public int getLosers() {
 		return 13;
 	}
 
 	@Override
+	public int getLosers() {
+		return 15;
+	}
+
+	@Override
 	public int getGoalsScored() {
-		return 38;
+		return 41;
 	}
 
 	@Override
 	public int getGoalsConceded() {
-		return 45;
+		return 48;
 	}
 
 	@Override
 	public int getPoints() {
-		return 38;
+		return 43;
 	}
 
 }

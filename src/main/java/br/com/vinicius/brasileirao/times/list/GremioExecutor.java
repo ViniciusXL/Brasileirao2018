@@ -11,37 +11,37 @@ public class GremioExecutor extends TimesExecutor {
 
 	@Override
 	public int getGames() {
-		return 33;
+		return 38;
 	}
 
 	@Override
 	public int getWins() {
-		return 16;
+		return 18;
 	}
 
 	@Override
 	public int getDraws() {
-		return 10;
+		return 12;
 	}
 
 	@Override
 	public int getLosers() {
-		return 7;
+		return 8;
 	}
 
 	@Override
 	public int getGoalsScored() {
-		return 44;
+		return 48;
 	}
 
 	@Override
 	public int getGoalsConceded() {
-		return 24;
+		return 27;
 	}
 
 	@Override
 	public int getPoints() {
-		return 58;
+		return 66;
 	}
 
 }

@@ -91,6 +91,6 @@ public enum Times {
 	}
 	
 	public static final Times findTeam(String name) {
-		return getTeams().stream().filter(s -> s.getName().startsWith(name)).findFirst().orElse(null);
+		return getTeams().stream().filter(s -> s.getName().equalsIgnoreCase(name)).findFirst().orElse(null);
 	}
 }

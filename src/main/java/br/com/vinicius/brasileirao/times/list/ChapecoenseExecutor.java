@@ -11,37 +11,37 @@ public class ChapecoenseExecutor extends TimesExecutor {
 
 	@Override
 	public int getGames() {
-		return 32;
+		return 38;
 	}
 
 	@Override
 	public int getWins() {
-		return 8;
+		return 11;
 	}
 
 	@Override
 	public int getDraws() {
-		return 10;
+		return 11;
 	}
 
 	@Override
 	public int getLosers() {
-		return 14;
+		return 16;
 	}
 
 	@Override
 	public int getGoalsScored() {
-		return 30;
+		return 34;
 	}
 
 	@Override
 	public int getGoalsConceded() {
-		return 46;
+		return 50;
 	}
 
 	@Override
 	public int getPoints() {
-		return 34;
+		return 44;
 	}
 
 }

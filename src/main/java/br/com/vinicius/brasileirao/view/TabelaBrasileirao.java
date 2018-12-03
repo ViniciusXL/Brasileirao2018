@@ -57,6 +57,7 @@ public class TabelaBrasileirao extends JFrame {
 				.getTeams((a, b) -> Integer.valueOf(b.getGoalsDifference()).compareTo(a.getGoalsDifference()));
 		teamList = teamList.stream().sorted((a, b) -> Integer.valueOf(b.getPoints()).compareTo(a.getPoints()))
 				.collect(Collectors.toList());
+		
 		for (int i = 0; i <= 19; i++) {
 			Times time = teamList.get(i);
 			

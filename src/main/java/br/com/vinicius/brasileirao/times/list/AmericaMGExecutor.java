@@ -14,12 +14,12 @@ public class AmericaMGExecutor extends TimesExecutor {
 
 	@Override
 	public int getGames() {
-		return 33;
+		return 38;
 	}
 
 	@Override
 	public int getWins() {
-		return 8;
+		return 10;
 	}
 
 	@Override
@@ -29,22 +29,22 @@ public class AmericaMGExecutor extends TimesExecutor {
 
 	@Override
 	public int getLosers() {
-		return 15;
+		return 18;
 	}
 
 	@Override
 	public int getGoalsScored() {
-		return 27;
+		return 30;
 	}
 
 	@Override
 	public int getGoalsConceded() {
-		return 39;
+		return 47;
 	}
 
 	@Override
 	public int getPoints() {
-		return 34;
+		return 40;
 	}
 
 	@Override

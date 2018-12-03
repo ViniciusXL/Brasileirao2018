@@ -11,37 +11,37 @@ public class CruzeiroExecutor extends TimesExecutor {
 
 	@Override
 	public int getGames() {
-		return 33;
+		return 38;
 	}
 
 	@Override
 	public int getWins() {
-		return 12;
+		return 14;
 	}
 
 	@Override
 	public int getDraws() {
-		return 10;
-	}
-
-	@Override
-	public int getLosers() {
 		return 11;
 	}
 
 	@Override
+	public int getLosers() {
+		return 13;
+	}
+
+	@Override
 	public int getGoalsScored() {
-		return 30;
+		return 34;
 	}
 
 	@Override
 	public int getGoalsConceded() {
-		return 31;
+		return 34;
 	}
 
 	@Override
 	public int getPoints() {
-		return 46;
+		return 53;
 	}
 
 }

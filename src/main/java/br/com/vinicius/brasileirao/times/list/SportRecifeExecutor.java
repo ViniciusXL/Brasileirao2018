@@ -11,37 +11,37 @@ public class SportRecifeExecutor extends TimesExecutor {
 
 	@Override
 	public int getGames() {
-		return 32;
+		return 38;
 	}
 
 	@Override
 	public int getWins() {
-		return 10;
+		return 11;
 	}
 
 	@Override
 	public int getDraws() {
-		return 6;
+		return 9;
 	}
 
 	@Override
 	public int getLosers() {
-		return 16;
+		return 18;
 	}
 
 	@Override
 	public int getGoalsScored() {
-		return 32;
+		return 35;
 	}
 
 	@Override
 	public int getGoalsConceded() {
-		return 53;
+		return 57;
 	}
 
 	@Override
 	public int getPoints() {
-		return 36;
+		return 42;
 	}
 
 }

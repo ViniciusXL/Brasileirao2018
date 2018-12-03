@@ -14,37 +14,37 @@ public class BahiaExecutor extends TimesExecutor {
 
 	@Override
 	public int getGames() {
-		return 33;
-	}
-
-	@Override
-	public int getWins() {
-		return 10;
-	}
-
-	@Override
-	public int getDraws() {
-		return 11;
-	}
-
-	@Override
-	public int getLosers() {
-		return 12;
-	}
-
-	@Override
-	public int getGoalsScored() {
-		return 35;
-	}
-
-	@Override
-	public int getGoalsConceded() {
 		return 38;
 	}
 
 	@Override
-	public int getPoints() {
+	public int getWins() {
+		return 12;
+	}
+
+	@Override
+	public int getDraws() {
+		return 12;
+	}
+
+	@Override
+	public int getLosers() {
+		return 14;
+	}
+
+	@Override
+	public int getGoalsScored() {
+		return 39;
+	}
+
+	@Override
+	public int getGoalsConceded() {
 		return 41;
+	}
+
+	@Override
+	public int getPoints() {
+		return 48;
 	}
 
 	@Override

@@ -14,17 +14,17 @@ public class AtleticoPRExecutor extends TimesExecutor {
 
 	@Override
 	public int getGames() {
-		return 33;
+		return 38;
 	}
 
 	@Override
 	public int getWins() {
-		return 13;
+		return 16;
 	}
 
 	@Override
 	public int getDraws() {
-		return 7;
+		return 9;
 	}
 
 	@Override
@@ -34,17 +34,17 @@ public class AtleticoPRExecutor extends TimesExecutor {
 
 	@Override
 	public int getGoalsScored() {
-		return 46;
+		return 54;
 	}
 
 	@Override
 	public int getGoalsConceded() {
-		return 32;
+		return 37;
 	}
 
 	@Override
 	public int getPoints() {
-		return 46;
+		return 57;
 	}
 	
 	@Override

@@ -11,37 +11,37 @@ public class InternacionalExecutor extends TimesExecutor {
 
 	@Override
 	public int getGames() {
-		return 33;
+		return 38;
 	}
 
 	@Override
 	public int getWins() {
-		return 17;
+		return 19;
 	}
 
 	@Override
 	public int getDraws() {
-		return 11;
+		return 12;
 	}
 
 	@Override
 	public int getLosers() {
-		return 5;
+		return 7;
 	}
 
 	@Override
 	public int getGoalsScored() {
-		return 45;
+		return 51;
 	}
 
 	@Override
 	public int getGoalsConceded() {
-		return 25;
+		return 29;
 	}
 
 	@Override
 	public int getPoints() {
-		return 62;
+		return 69;
 	}
 
 }

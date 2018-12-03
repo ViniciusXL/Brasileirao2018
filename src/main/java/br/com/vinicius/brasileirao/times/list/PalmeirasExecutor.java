@@ -11,17 +11,17 @@ public class PalmeirasExecutor extends TimesExecutor {
 
 	@Override
 	public int getGames() {
-		return 32;
+		return 38;
 	}
 
 	@Override
 	public int getWins() {
-		return 19;
+		return 23;
 	}
 
 	@Override
 	public int getDraws() {
-		return 10;
+		return 11;
 	}
 
 	@Override
@@ -31,17 +31,17 @@ public class PalmeirasExecutor extends TimesExecutor {
 
 	@Override
 	public int getGoalsScored() {
-		return 52;
+		return 64;
 	}
 
 	@Override
 	public int getGoalsConceded() {
-		return 23;
+		return 26;
 	}
 
 	@Override
 	public int getPoints() {
-		return 67;
+		return 80;
 	}
 
 }

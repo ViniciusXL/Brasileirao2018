@@ -11,37 +11,37 @@ public class SaoPauloExecutor extends TimesExecutor {
 
 	@Override
 	public int getGames() {
-		return 33;
+		return 38;
 	}
 
 	@Override
 	public int getWins() {
-		return 15;
+		return 16;
 	}
 
 	@Override
 	public int getDraws() {
-		return 13;
+		return 15;
 	}
 
 	@Override
 	public int getLosers() {
-		return 5;
+		return 7;
 	}
 
 	@Override
 	public int getGoalsScored() {
-		return 44;
+		return 46;
 	}
 
 	@Override
 	public int getGoalsConceded() {
-		return 30;
+		return 34;
 	}
 
 	@Override
 	public int getPoints() {
-		return 58;
+		return 63;
 	}
 
 }
